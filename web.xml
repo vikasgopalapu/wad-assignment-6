@@ -1,0 +1,33 @@
+<web-app>
+
+<servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>RegisterServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/register</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>DeleteServlet</servlet-name>
+    <servlet-class>DeleteServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>DeleteServlet</servlet-name>
+    <url-pattern>/delete</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>UpdateServlet</servlet-name>
+    <servlet-class>UpdateServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>UpdateServlet</servlet-name>
+    <url-pattern>/update</url-pattern>
+</servlet-mapping>
+
+</web-app>
